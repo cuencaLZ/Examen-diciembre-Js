@@ -1,13 +1,6 @@
 
-/** 
- * Importa los módulos de tus clases 
- */
 
-
-/**
- * Crea el objeto Rick
- */
-
+var protoRick = Rick();
 console.assert(protoRick);
 console.assert(protoRick.id == "C-137");
 console.assert(protoRick.ondas == "altas");
