@@ -1,6 +1,9 @@
-
-
-var protoRick = Rick();
+function Rick(){
+    protoRick =[]
+    var protoRick = { id:"C-137", ondas:"altas", habla:"Es Rick-dículo!"}; 
+    Object.create(potroRick)
+    return protoRick
+};
 console.assert(protoRick);
 console.assert(protoRick.id == "C-137");
 console.assert(protoRick.ondas == "altas");
